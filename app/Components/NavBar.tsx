@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 
 const NavBar = () => {
   return (
@@ -16,6 +17,7 @@ const NavBar = () => {
           <button className="btn btn-ghost text-xl"> About me</button>
         </Link>
       </div>
+      <ThemeToggle></ThemeToggle>
     </div>
   );
 };
