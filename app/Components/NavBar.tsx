@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <>
       <div className="flex rounded items-cener justify-center pt-5">
-        <div className="bg-base-300 rounded-xl outline outline-primary hover:outline-secondary">
+        <div className="bg-base-300 rounded-xl outline outline-primary flex items-center justify-center hover:outline-secondary">
           <Link href="/">
             <button className="btn btn-ghost text-xl">Home</button>
           </Link>
@@ -17,10 +17,8 @@ const NavBar = () => {
           <Link href="/about">
             <button className="btn btn-ghost text-xl"> About me</button>
           </Link>
+          <ThemeToggle />
         </div>
-      </div>
-      <div className="flex justify-end items-center pt-5">
-        <ThemeToggle />
       </div>
     </>
   );
