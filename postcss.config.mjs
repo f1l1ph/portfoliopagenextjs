@@ -3,6 +3,9 @@ const config = {
   plugins: {
     tailwindcss: {},
   },
+  daisyui: {
+    themes: ["light", "dark"],
+  },
 };
 
 export default config;
