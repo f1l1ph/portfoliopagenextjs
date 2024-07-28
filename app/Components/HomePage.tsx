@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <>
       <div className="h-screen content-around">
-        <div className="text-center">
+        <div className="text-center p-10">
           <h1 className="font-extrabold text-5xl">Welcome</h1>
         </div>
 

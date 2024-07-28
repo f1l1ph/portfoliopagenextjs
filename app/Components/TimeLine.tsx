@@ -4,7 +4,7 @@ const TimeLine = () => {
   return (
     <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical pt-12">
       <li>
-        <div className="timeline-middle">
+        <div className="timeline-middle hidden lg:block">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -33,7 +33,7 @@ const TimeLine = () => {
       </li>
       <li>
         <hr />
-        <div className="timeline-middle">
+        <div className="timeline-middle hidden lg:block">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -59,7 +59,7 @@ const TimeLine = () => {
       </li>
       <li>
         <hr />
-        <div className="timeline-middle">
+        <div className="timeline-middle hidden lg:block">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -88,7 +88,7 @@ const TimeLine = () => {
       </li>
       <li>
         <hr />
-        <div className="timeline-middle">
+        <div className="timeline-middle hidden lg:block">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -116,7 +116,7 @@ const TimeLine = () => {
       </li>
       <li>
         <hr />
-        <div className="timeline-middle">
+        <div className="timeline-middle hidden lg:block">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
