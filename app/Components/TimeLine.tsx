@@ -4,7 +4,7 @@ const TimeLine = () => {
   return (
     <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical pt-12">
       <li>
-        <div className="timeline-middle hidden lg:block">
+        <div className="timeline-middle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -33,7 +33,7 @@ const TimeLine = () => {
       </li>
       <li>
         <hr />
-        <div className="timeline-middle hidden lg:block">
+        <div className="timeline-middle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -59,7 +59,7 @@ const TimeLine = () => {
       </li>
       <li>
         <hr />
-        <div className="timeline-middle hidden lg:block">
+        <div className="timeline-middle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -88,7 +88,7 @@ const TimeLine = () => {
       </li>
       <li>
         <hr />
-        <div className="timeline-middle hidden lg:block">
+        <div className="timeline-middle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -116,7 +116,7 @@ const TimeLine = () => {
       </li>
       <li>
         <hr />
-        <div className="timeline-middle hidden lg:block">
+        <div className="timeline-middle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -131,12 +131,11 @@ const TimeLine = () => {
           </svg>
         </div>
         <div className="timeline-start mb-10 md:text-end">
-          <time className="font-mono italic">2015</time>
-          <div className="text-lg font-black">Apple Watch</div>
-          The Apple Watch is a line of smartwatches produced by Apple Inc. It
-          incorporates fitness tracking, health-oriented capabilities, and
-          wireless telecommunication, and integrates with iOS and other Apple
-          products and services
+          <time className="font-mono italic">2021</time>
+          <div className="text-lg font-black align-right">Spin Game</div>
+          Mobile game made for competetion https://ihra.ics.upjs.sk/. <br /> I
+          have teamed with designer Tomas Benko and we won third place. Game was
+          made in Unity engine.
         </div>
       </li>
     </ul>
