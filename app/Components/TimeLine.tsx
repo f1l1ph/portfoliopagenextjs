@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const TimeLine = () => {
   return (
@@ -133,9 +134,20 @@ const TimeLine = () => {
         <div className="timeline-start mb-10 md:text-end">
           <time className="font-mono italic">2021</time>
           <div className="text-lg font-black align-right">Spin Game</div>
-          Mobile game made for competetion https://ihra.ics.upjs.sk/. <br /> I
-          have teamed with designer Tomas Benko and we won third place. Game was
-          made in Unity engine.
+          <p className="w-96 align-middle">
+            Mobile game made for competetion https://ihra.ics.upjs.sk/. I have
+            teamed with designer Tomas Benko and we won third place. Game was
+            made in Unity engine. You can find source code on my github:
+            https://github.com/f1l1ph/Spin_Game
+          </p>
+        </div>
+        <div className="timeline-end mb-10">
+          <Image
+            src={"/spin_gameScreenshot.jpeg"}
+            width="250"
+            height="250"
+            alt="here should be image"
+          />
         </div>
       </li>
     </ul>
