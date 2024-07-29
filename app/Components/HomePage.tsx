@@ -10,7 +10,7 @@ const HomePage = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <div className="mockup-code mb-60">
+          <div className="mockup-code mb-60 shadow-lg shadow-primary">
             <pre data-prefix=">" className="text-warning">
               <code>
                 Full-time student at{" "}
